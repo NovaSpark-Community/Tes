@@ -286,7 +286,7 @@ return true
 };
 
 //Arranque nativo para subbots by - ReyEndymion >> https://github.com/ReyEndymion
-
+/*
 global.rutaJadiBot = join(__dirname, './JadiBots')
 
 if (global.jotaJadibts) {
@@ -309,7 +309,7 @@ jotaJadiBot({pathJotaJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/',
 }
 }
 }
-
+*/
 const pluginFolder = global.__dirname(join(__dirname, './plugins/index'))
 const pluginFilter = (filename) => /\.js$/.test(filename)
 global.plugins = {}
